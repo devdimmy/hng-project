@@ -65,9 +65,40 @@
                 <br>
                 <h4>LANGUAGES</h4>
                 <p>English</p>
-                
             </div>
         </div>
     </div>
+
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <form name="contact_me">
+            
+            <div class="two__fields">
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required minlength="4">
+                </fieldset>
+                
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                </fieldset>
+            </div>
+            
+            <fieldset>
+                <label for="title">Title</label>
+                <input type="text" name="title" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="message">Message</label>
+                <textarea name="message" minlength="20" required></textarea>
+            </fieldset>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
